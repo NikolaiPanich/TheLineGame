@@ -50,7 +50,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1610606202172597197, guid: 0ae6865417382114984f0967bd159b5b, type: 3}
       propertyPath: m_Name
-      value: Wall Variant
+      value: Wall Right Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798425562849842044, guid: 0ae6865417382114984f0967bd159b5b, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
