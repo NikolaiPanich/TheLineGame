@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - StartWallLeft
+  - StartWallRight
+  - StartWallLeft1
+  - StartWallLeft2
+  - StartWallRight1
+  - StartWallRight2
+  - TinyLetLeft1
+  - TinyLetLeft2
+  - TinyLetRight1
+  - TinyLetRight2
   layers:
   - Default
   - TransparentFX

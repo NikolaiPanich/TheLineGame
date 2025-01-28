@@ -185,7 +185,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -228,7 +228,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60a4fbe18941671489a161acdc95c4a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1610606202172597197, guid: 0ae6865417382114984f0967bd159b5b, type: 3}
+  mapObjects:
+  - {fileID: 348651713011984278, guid: 3eeca9fb9a950614b8492fa2b942f979, type: 3}
+  - {fileID: 5023693285756461959, guid: 8148d587cb5d4874cac920cdb5a8a83d, type: 3}
+  - {fileID: 7125650639951987108, guid: c63a4864e9415fe429e4dc2af888ae4e, type: 3}
+  - {fileID: 6217714548242758910, guid: 728a5ea5f87c04348b9def2d11d60eb4, type: 3}
+  - {fileID: 8379609203984432605, guid: 8f04a3244a5e05f4cb0662668b6be3f5, type: 3}
 --- !u!114 &519420034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,7 +260,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6033101123012545470, guid: 8148d587cb5d4874cac920cdb5a8a83d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6033101123012545470, guid: 8148d587cb5d4874cac920cdb5a8a83d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -321,7 +326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8722040264903304968, guid: 01177feee845d4047afb0511ea6b725d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8722040264903304968, guid: 01177feee845d4047afb0511ea6b725d, type: 3}
       propertyPath: m_LocalPosition.z
@@ -374,7 +379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1358106928449982383, guid: 3eeca9fb9a950614b8492fa2b942f979, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -5
       objectReference: {fileID: 0}
     - target: {fileID: 1358106928449982383, guid: 3eeca9fb9a950614b8492fa2b942f979, type: 3}
       propertyPath: m_LocalPosition.y
