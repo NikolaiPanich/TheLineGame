@@ -300,7 +300,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8447550698857894710, guid: 8148d587cb5d4874cac920cdb5a8a83d, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -3348415744024561173, guid: 8148d587cb5d4874cac920cdb5a8a83d, type: 3}
@@ -319,6 +319,10 @@ PrefabInstance:
     - target: {fileID: 2567678167786314216, guid: 01177feee845d4047afb0511ea6b725d, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2692101387215614344, guid: 01177feee845d4047afb0511ea6b725d, type: 3}
+      propertyPath: currentHealth
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8722040264903304968, guid: 01177feee845d4047afb0511ea6b725d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -419,7 +423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3772516846182946599, guid: 3eeca9fb9a950614b8492fa2b942f979, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6866028664463453398, guid: 3eeca9fb9a950614b8492fa2b942f979, type: 3}

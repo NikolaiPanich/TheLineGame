@@ -57,8 +57,12 @@ PrefabInstance:
       value: StartWallLeft
       objectReference: {fileID: 0}
     - target: {fileID: 2798425562849842044, guid: 0ae6865417382114984f0967bd159b5b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798425562849842044, guid: 0ae6865417382114984f0967bd159b5b, type: 3}
       propertyPath: m_IsTrigger
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8073671220748799578, guid: 0ae6865417382114984f0967bd159b5b, type: 3}
       propertyPath: m_BodyType

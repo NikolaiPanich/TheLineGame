@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 1175583744793939569}
   - component: {fileID: 80004387589671095}
   - component: {fileID: -3070220629573701015}
+  - component: {fileID: -7652226916689060211}
   m_Layer: 0
   m_Name: TinyLet
   m_TagString: Untagged
@@ -130,3 +131,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &-7652226916689060211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125650639951987108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 997325118004901479ede9b9100e4fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2692101387215614344, guid: 01177feee845d4047afb0511ea6b725d, type: 3}
