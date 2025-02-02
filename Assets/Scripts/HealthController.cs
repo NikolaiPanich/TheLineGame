@@ -6,11 +6,11 @@ public class HealthController : MonoBehaviour
     public PlayerController player;
 
     public Text healthText;
-    public int health = 100;
+    //public int health;
 
     void Start()
     {
-        player.currentHealth = health;
+        //player.currentHealth = health;
     }
 
     void Update()

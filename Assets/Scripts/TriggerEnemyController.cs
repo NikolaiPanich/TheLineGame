@@ -12,19 +12,20 @@ public class ButtonTrigger : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D obj)
     {
-        if (obj.tag == "Reward1")
+        player.currentHealth -= 5f;
+        Debug.Log(player.currentHealth);
+        Destroy(gameObject);
+        //gameObject.SetActive(false);
+        DiePlayer();
+    }
+
+    void DiePlayer()
+    {
+        if (player.currentHealth == 0)
         {
-            player.currentHealth += 5f;
-            Debug.Log(player.currentHealth);
-            Destroy(gameObject);
-            //gameObject.SetActive(false);
-        }
-        else
-        {
-            player.currentHealth -= 5f;
-            Debug.Log(player.currentHealth);
-            Destroy(gameObject);
-            //gameObject.SetActive(false);
+            Debug.Log($"Current health: {player.currentHealth}");
+            player.Die();
+            //Destroy(gameObject);
         }
     }
 }
