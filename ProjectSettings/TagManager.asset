@@ -9,6 +9,7 @@ TagManager:
   - Background2Lvl1
   - Background3Lvl1
   - Background4Lvl1
+  - SpawnAreaEnemys
   layers:
   - Default
   - TransparentFX
