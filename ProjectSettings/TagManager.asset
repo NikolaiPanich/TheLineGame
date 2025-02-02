@@ -3,13 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - BackgroundStartLvl1
-  - Background1Lvl1
-  - Background2Lvl1
-  - Background3Lvl1
-  - Background4Lvl1
-  - SpawnAreaEnemys
+  tags: []
   layers:
   - Default
   - TransparentFX
